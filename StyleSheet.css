@@ -1,14 +1,31 @@
 body {
-	  background-image: url("https://qbasicjed.github.io/ResumeWebsite/background.png");
+	  background-image: url("background.png");
 	 }
-h1 {
-	color: #BBE6FF;
-	text-align: center;
-	background-color: #00006F;
+h1, h2, h3, h4{
+	  color: #BBE6FF;
+	  background-color: #00006F;
+   }
+h2 {
+	  color: #BBE6FF;
+	  background-color: #00006F;
    }
 h4 {
-	color: #BBE6FF;
-	text-align: center;
-	background-color: #00006F;
+	  color: #BBE6FF;
+	  background-color: #00006F;
    }
 	
+mark{
+	  color: #BBE6FF;
+	  background-color: #00006F;
+	}
+
+.shrinkText{
+	padding: 0px;
+	margin:0px;
+	background: none;
+	text-align: center;
+		  }
+		
+#asideBody{
+			text-align:left;
+		  }
