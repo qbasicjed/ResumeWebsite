@@ -1,18 +1,18 @@
+html{
+		background-image: url("background.png");
+	}
 body {
-	  background-image: url("background.png");
+	  
+	  float: left;
+	 }
+aside{
+		float: right;
 	 }
 h1, h2, h3, h4{
-	  color: #BBE6FF;
-	  background-color: #00006F;
-   }
-h2 {
-	  color: #BBE6FF;
-	  background-color: #00006F;
-   }
-h4 {
-	  color: #BBE6FF;
-	  background-color: #00006F;
-   }
+				color: #BBE6FF;
+				background-color: #00006F;
+			  }
+
 	
 mark{
 	  color: #BBE6FF;
@@ -20,12 +20,24 @@ mark{
 	}
 
 .shrinkText{
-	padding: 0px;
-	margin:0px;
-	background: none;
-	text-align: center;
-		  }
-		
+			padding: 0px;
+			margin:0px;
+			background: none;
+			text-align: center;
+		   }
+.description{
+				text-align: left;
+			}
+.detailTitle{
+				float: left;
+			}
+.year{
+		float: right;
+	 }
+#asideHeader{
+				text-align: center;
+			}
 #asideBody{
-			text-align:left;
+			
+			text-align:left; 
 		  }
