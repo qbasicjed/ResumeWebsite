@@ -1,16 +1,20 @@
 html{
 		background-image: url("background.png");
+		
 	}
 body {
-	  
 	  float: left;
+	  width: 75%
 	 }
 aside{
 		float: right;
+		width: 25%;
 	 }
 h1, h2, h3, h4{
 				color: #BBE6FF;
 				background-color: #00006F;
+				border-width: 2px;
+				border-color: #BBE6FF;
 			  }
 
 	
