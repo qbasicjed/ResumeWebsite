@@ -1,8 +1,8 @@
-html{
+body{
 		background-image: url("background.png");
 		
 	}
-body {
+main {
 	  float: left;
 	  width: 75%
 	 }
@@ -16,8 +16,13 @@ h1, h2, h3, h4{
 				border-width: 2px;
 				border-color: #BBE6FF;
 			  }
-
+h1, h2{
+		text-decoration: underline;
+	  }
 	
+h3{
+	text-indent: 30pt;
+  }
 mark{
 	  color: #BBE6FF;
 	  background-color: #00006F;
