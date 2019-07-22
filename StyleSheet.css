@@ -35,6 +35,8 @@ mark{
 	}
 button{
 	width: 100%;
+	background: none;
+	/* background-color: rgb(16, 187, 0); */
 }
 .collapsible{
 				cursor: crosshair;
@@ -46,36 +48,17 @@ button{
 				transition: 0.4s;
 			}
 .active, .collapsible:hover{
-								background-color: yellowgreen;
+								background-color: lightgreen;
 								
 						   }
 
 .content{
-	padding: 0 18px;
-	background-color: white;
+	padding: 0;
+	background-color: #00006F;
 	display: none;
 	overflow: hidden;
 }
-/* .content{
-	max-height: 10pt;
-	overflow: hidden;
 
-	-webkit-transition: max-height 0.8s;
-	-moz-transition: max-height 0.8s;
-	transition: max-height 0.8s;
-} */
-
-/* .content:hover{
-	max-height: 1500pt;
-} */
-/* 
-#content1.open{
-	max-height: 1500pt;
-
-	-webkit-transition: max-height 8s;
-	-moz-transition: max-height 8s;
-	transition: max-height 8s;
-} */
 .shrinkText{
 			padding: 0px;
 			margin:0px;
