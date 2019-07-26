@@ -16,6 +16,9 @@ aside{
 		float: right;
 		width: 20%;
 	 }
+footer{
+	clear: left;
+}
 h1, h2, h3, h4, p, ul{
 				color: #BBE6FF;
 				background-color: #00006F;
@@ -25,6 +28,7 @@ h1, h2, h3, h4, p, ul{
 h1, h2{
 		text-decoration: underline;
 	  }
+	  
 p{
 	  margin-top: 0pt;
 	  padding-top: 0pt;
@@ -47,7 +51,9 @@ li{
 	display: block;
 	padding: 5pt;
 }
-
+.logo{
+	background:url('smallerlogo.png');
+}
 .collapsible{
 				cursor: crosshair;
 				padding: 0;
@@ -77,6 +83,7 @@ li{
 	
 }
 
+
 .shrinkText{
 			padding: 0px;
 			margin:0px;
@@ -100,6 +107,12 @@ div > button {
 button > h3 {
 	padding-top: 0pt;
 	margin-top: 3pt;
+}
+footer > h4{
+	clear: left;
+	padding-left: 55pt;
+	padding-top: 10pt;
+	padding-bottom: 20pt;
 }
 #asideHeader{
 				text-align: center;
