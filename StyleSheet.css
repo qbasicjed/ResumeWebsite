@@ -4,9 +4,9 @@ body{
 head{
 		background-color: #00006F;
 }
-main {
+main, nav {
+	  
 	  margin-top: 30pt;
-	  padding-top: 30pt;
 	  float: left;
 	  width: 70%;
 	  background-color: #00006F;
@@ -16,7 +16,7 @@ aside{
 		float: right;
 		width: 20%;
 	 }
-h1, h2, h3, h4, p{
+h1, h2, h3, h4, p, ul{
 				color: #BBE6FF;
 				background-color: #00006F;
 				border-width: 2px;
@@ -42,6 +42,11 @@ button{
 	/* background-color: rgb(16, 187, 0); */
 }
 
+li{
+	float: left;
+	display: block;
+	padding: 5pt;
+}
 
 .collapsible{
 				cursor: crosshair;
@@ -50,12 +55,19 @@ button{
 				text-align: left;
 				border: none;
 				outline: none;
-				transition: 0.4s;
+				transition: 0.7s;
 			}
 .active, .collapsible:hover{
 								background-color: lightgreen;
 						   }
-
+.nav_button:hover, .this_page{
+	border: 2pt;
+	border-style: solid;
+	border-top-color: lightgreen;
+	border-bottom-color: lightgreen;
+	border-left: 0;
+	border-right: 0;
+}
 .content{
 	padding: 0;
 	background-color: #00006F;
