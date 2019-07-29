@@ -1,12 +1,19 @@
+
+@font-face {
+	font-family:'intro_head_rbase';
+	src: url('introheadr-base-webfont.woff') format('woff');
+	font-weight: normal;
+	font-syle: normal;
+}
+	
 body{
-		background-image: url("background.png");
-		padding-left: 10pt;
+	background-image: url("background.png");
+	padding-left: 10pt;
 }		
 head{
-		background-color: #00006F;
+	background-color: #00006F;
 }
 main, footer, head > nav {
-	  
 	  margin-top: 30pt;
 	  float: left;
 	  width: 70%;
@@ -29,9 +36,11 @@ h1, h2, h3, h4, p, ul, li, a, form{
 				background-color: #00006F;
 				border-width: 2px;
 				border-color: #BBE6FF;
+				font-family:'intro_head_rbase';
 			  }
 h1, h2{
 		text-decoration: underline;
+		
 	  }
 
 p{
@@ -71,6 +80,14 @@ li{
 .active, .collapsible:hover{
 								background-color: lightgreen;
 						   }
+.nav_button{
+	border: 2pt;
+	border-style: solid;
+	border-top-color: #00006F;
+	border-bottom-color: #00006F;
+	border-left: 0;
+	border-right: 0;
+}
 .nav_button:hover, .this_page{
 	border: 2pt;
 	border-style: solid;
