@@ -3,7 +3,7 @@
 	font-family:'intro_head_rbase';
 	src: url('introheadr-base-webfont.woff') format('woff');
 	font-weight: normal;
-	font-syle: normal;
+	font-style: normal;
 }
 	
 body{
@@ -18,12 +18,12 @@ main, footer, head > nav {
 	  float: left;
 	  width: 70%;
 	  background-color: #00006F;
-	 }
+}
 aside{
 		background-color: #00006F;
 		float: right;
 		width: 20%;
-	 }
+}
 footer{
 	clear: left;
 }
@@ -39,23 +39,18 @@ img{
 h1, h2, .h2button{
 		text-decoration: underline;
 		
-	  }
+}
 
 p{
 	  margin-top: 0pt;
 	  padding-top: 0pt;
 	  margin-bottom: 15pt;
 	  padding-bottom: 0pt;
- } 
+} 
 mark{
 	  color: #BBE6FF;
 	  background-color: #00006F;
-	}
-/* button{
-	width: 100%;
-	background: none;
-} */
-
+}
 li{
 	float: left;
 	display: block;
@@ -74,24 +69,23 @@ li{
 	font-weight: bold;
 }
 .collapsible{
-				cursor: crosshair;
-				padding: 0;
-				margin: 0;
-				text-align: left;
-				border: none;
-				outline: none;
-				transition: 0.7s;
-
-			}
+	cursor: crosshair;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.7s;
+}
 .active, .collapsible:hover{
 							
-								border-width: 5pt;
-								border-style: solid;
-								border-top-color: lightgreen;
-								border-bottom-color: lightgreen;
-								border-left: 0;
-								border-right: 0;
-						   }
+	border-width: 5pt;
+	border-style: solid;
+	border-top-color: lightgreen;
+	border-bottom-color: lightgreen;
+	border-left: 0;
+	border-right: 0;
+}
 .nav_button{
 	border: 2pt;
 	border-style: solid;
@@ -114,28 +108,25 @@ li{
 	display: none;
 	overflow: hidden;
 	padding-left: 15pt;
-	
+
 }
-
 .shrinkText{
-			padding: 0px;
-			margin:0px;
-			background: none;
-			text-align: center;
-		   }
+	padding: 0px;
+	margin:0px;
+	background: none;
+	text-align: center;
+}
 .description{
-				clear: left;
-			}
-
+	clear: left;
+}
 .year{
-		float: right;
-		text-decoration: underline;
-	 }
-
+	float: right;
+	text-decoration: underline;
+}
 div > button {
-		padding-top: 0pt;
-		margin-top: 0pt;
-		height: 20pt;
+	padding-top: 0pt;
+	margin-top: 0pt;
+	height: 20pt;
 }
 button > h3 {
 	padding-top: 0pt;
@@ -152,9 +143,8 @@ head > h1, head > h2{
 	width: 85%;
 }
 #asideHeader{
-				text-align: center;
-			}
+	text-align: center;
+}
 #asideBody{
-			
 			text-align:left; 
-		  }
+}
