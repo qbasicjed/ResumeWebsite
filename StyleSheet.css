@@ -31,11 +31,9 @@ img{
 	float:left;
 	width:10%;
 }
-h1, h2, h3, h4, p, ul, li, a, form, .h2button{
+*{
 				color: #BBE6FF;
 				background-color: #00006F;
-				border-width: 2px;
-				border-color: #BBE6FF;
 				font-family:'intro_head_rbase';
 			  }
 h1, h2, .h2button{
@@ -53,12 +51,10 @@ mark{
 	  color: #BBE6FF;
 	  background-color: #00006F;
 	}
-button{
+/* button{
 	width: 100%;
 	background: none;
-	
-	/* background-color: rgb(16, 187, 0); */
-}
+} */
 
 li{
 	float: left;
@@ -85,9 +81,23 @@ li{
 				border: none;
 				outline: none;
 				transition: 0.7s;
+
+				/*adds a blue border where the green active border will be to avoid jumps in the page when active*/
+				
+				border-style: solid;
+				border-top-color: #00006F;
+				border-bottom-color: #00006F;
+				border-left: 0;
+				border-right: 0;
 			}
 .active, .collapsible:hover{
-								background-color: lightgreen;
+							
+								border-width: 5pt;
+								border-style: solid;
+								border-top-color: lightgreen;
+								border-bottom-color: lightgreen;
+								border-left: 0;
+								border-right: 0;
 						   }
 .nav_button{
 	border: 2pt;
